@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  background-color: rgb(195, 195, 195); 
+}
+
+.search-results {
+  display: flex;
+  font-size: 30px;
+  color: black;
+  justify-content: left;
+  align-items: left;
+}
